@@ -1,0 +1,80 @@
+:root {
+	font-family: Asap, Arial, Helvetica, sans-serif, Twemoji Mozilla;
+	background: rgb(4,21,13);
+	background: linear-gradient(180deg, rgba(4,21,13,1) 0%, rgba(10,60,37,1) 100%) no-repeat center fixed;
+	background-size: cover;
+	color:white;
+}
+html {
+	min-height: 100%;
+	position:relative;
+	margin: auto;
+	width: 87.5%;
+}
+.logo {
+	font-family: inherit;
+	font-size: 2.8rem;
+	font-weight: 600;
+	display: block;
+	margin: 16 6 0 6;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #ddd;
+}
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex: 0 0 auto;
+	margin: 15 20 20 20;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+}
+.yuh {
+	font-family: inherit;
+	font-size: 1.3rem;
+	font-weight: 500;
+	display: block;
+	margin: 40 20 0 20;
+	white-space: nowrap;
+	text-shadow: 0 3px 5px #000;
+	transition: ease-out 0.25s;
+	transition-property: color;
+}
+.content {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15 15;
+    box-shadow: 0 3px 5px #000;
+}
+h2 {
+    margin: 0 0 20 0;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+.currentver {
+    display: block;
+    margin: 15 5;
+    text-shadow: 0 2px 3px #000;
+}
+.fakecrdate {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	flex: 0 0 auto;
+    margin: 15 5;
+    text-shadow: 0 2px 3px #000;
+}
