@@ -1,15 +1,18 @@
 :root {
 	font-family: Asap, Arial, Helvetica, sans-serif, Twemoji Mozilla;
 	background: rgb(4,21,13);
-	background: linear-gradient(180deg, rgba(4,21,13,1) 0%, rgba(10,60,37,1) 100%) no-repeat center fixed;
+	background: linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed !important;
 	background-size: cover;
 	color:white;
+	scrollbar-color: rgb(10,60,37) rgb(4,21,13);
+    scrollbar-width: thin !important;
 }
 html {
 	min-height: 100%;
 	position:relative;
 	margin: auto;
 	width: 87.5%;
+	
 }
 .logo {
 	font-family: inherit;
@@ -50,8 +53,8 @@ a:hover {
 	transition-property: color;
 }
 .content {
-    background: white;
-    color: black;
+    background: #fff;
+    color: #000;
     border-radius: 10px;
     padding: 15 15;
     box-shadow: 0 3px 5px #000;
@@ -77,4 +80,7 @@ h2 {
 	flex: 0 0 auto;
     margin: 15 5;
     text-shadow: 0 2px 3px #000;
+}
+body {
+    background: transparent !important;
 }

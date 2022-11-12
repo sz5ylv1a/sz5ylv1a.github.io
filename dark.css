@@ -1,0 +1,5 @@
+/* this is meant to be the css file to load when dark mode is turned on */
+.content {
+    background: #000;
+    color: #fff;
+}
