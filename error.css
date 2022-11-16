@@ -1,0 +1,11 @@
+:root {
+    background: 260200;
+	background: linear-gradient(180deg, #260200 0%, #720003 100%) no-repeat center fixed;
+	scrollbar-color: #720003 #260200;
+}
+h2 {
+    font-size:2.2rem
+}
+.content {
+    text-align: center
+}
