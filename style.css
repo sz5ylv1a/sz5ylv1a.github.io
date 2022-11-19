@@ -6,6 +6,7 @@
 	color:white;
 	scrollbar-color: rgb(10,60,37) rgb(4,21,13);
 	scrollbar-width: thin;
+	font-size: 1.0rem;
 }
 html {
 	min-height: 100%;
@@ -35,7 +36,7 @@ body {
 	font-weight: 600;
 	display: inline;
 	float: left;
-	padding: 16 10;
+	padding: 16 0 0 30;
 }
 a {
 	color: #fff;
@@ -58,6 +59,8 @@ header {
 	justify-content: space-between;
 	width:90%;
 	margin:auto;
+	overflow:hidden;
+	list-style-type:none;
 }
 .menu-items {
 	display: flex;
@@ -70,16 +73,71 @@ header {
 	font-weight: 500;
 	display: inline;
 	float: right;
-	margin: 32 20 0 20;
+	margin: 12 20 0 20;
 	white-space: nowrap;
 	text-shadow: 0 3px 5px #000;
-	transition: ease-out 0.25s;
-	transition-property: color;
+	transition: ease-out 0.25s all;
+}
+.dd {
+	padding: 20px;
+}
+.ddbtn {
+	display:none;
+	float:right;
+	cursor:pointer;
+	font-size:2rem !important;
+	margin-top:6px !important;
+	margin-right:20px;
+	background:none;
+	border:none;
+	color:white;
+	font-family:inherit;
+	text-shadow:0 3px 5px #000;
+}
+@media screen and (max-width:921px) {
+	.ddbtn {
+		display:inline-block !important;
+	}
+	.logo {
+		margin-left:25px;
+	}
+	.menu {
+		position:relative;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		overflow:visible;
+	}
+	.menu-items {
+		display:none !important;
+		text-align: right;
+		position:absolute !important;
+		z-index:1;
+		background:#fff !important;
+	}
+	.menu-items a {
+		display:inline-block !important;
+		padding: 8px 8px !important;
+		margin: 0 !important;
+		color: #000 !important;
+		text-decoration: none;
+		text-shadow: 0 0 0;
+		width:100%;
+	}
+	.dd:hover .menu-items, .dd:focus .menu-items {
+		display:inline-block !important;
+		min-height: 100%;
+		top:0;
+	}
+	.menu-items a:hover {background:#ddd}
+	.dd:hover {
+		min-height: 100% !important;
+	}
 }
 h2 {
     margin: 0 0 20 0;
 }
-.footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
