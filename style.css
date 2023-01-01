@@ -2,10 +2,8 @@
 
 :root {
 	font-family: Asap, Arial, Helvetica, sans-serif, Twemoji Mozilla;
-	/* background: rgb(4,21,13);
-	background: linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed; */
-	background: rgb(4,13,21);
-    background: linear-gradient(180deg, rgb(4,13,21) 0%, rgb(10,37,60) 100%) no-repeat center fixed;
+	background: rgb(4,21,13);
+	background: linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed;
 	background-size: cover;
 	color:white;
 	scrollbar-color: rgb(10,60,37) rgb(4,21,13);
