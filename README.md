@@ -1,4 +1,4 @@
-# The sz5ylv1a website repo
+# [The sz5ylv1a website](https://sz5ylv1a.github.io/)
 these are files that hold together my website, and also hosted here
 
 
