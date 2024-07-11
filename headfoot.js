@@ -14,6 +14,6 @@ document.querySelector("header").innerHTML = `
 `;
 
 document.querySelector("footer").innerHTML = `
-<div class="currentver">v0.0.15a • Last updated: 06/27/2024 • <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io">Source Code</a></div>
+<div class="currentver">v0.0.15a • Last updated: 07/12/2024 • <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io">Source Code</a></div>
 <div class="fakecrdate">sz5ylv1a 2017-2024</div>
 `;
