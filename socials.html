@@ -12,7 +12,7 @@
     <meta content="https://sz5ylv1a.github.io/resources/images/thing.jpg" property="og:image" />
     <meta content="#c5f5c3" data-react-helmet="true" name="theme-color" />
     <style>
-        @import "style.css";
+        @import "style.min.css";
         body {text-align:center}
         h2 {text-align:left}
         .lnk {
@@ -37,8 +37,9 @@
             scale: 1.05;
             transition: none;
         }
-        .lnk1 {background: #1dabdd}
-        .lnk1:hover {background: #1683aa}
+        .lnk1 {background: #999; scale: 1 !important; transition: none;}
+        .lnk1:hover {background: #666}
+        .lnk1:active {background: #333}
         .lnk2 {background: #595aff}
         .lnk2:hover {background: #2728cd}
         .lnk3 {background: #dd1f1d}
@@ -70,9 +71,9 @@
     <header></header>
     <div class="content">
         <h2>Here are some of my social links:</h2>
-        <a href="https://twitter.com/sz5ylv1a" class="lnk1 lnk"><i class="fa-brands fa-twitter fa-lg"></i> Twitter/X</a>
-        <a rel="me" href="https://meow.social/@sz5ylv1a" class="lnk2 lnk"><i class="fa-brands fa-mastodon fa-lg"></i> Mastodon</a>
         <a href="https://bsky.app/profile/sz5ylv1a.bsky.social" class="lnk10 lnk"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
+        <a rel="me" href="https://meow.social/@sz5ylv1a" class="lnk2 lnk"><i class="fa-brands fa-mastodon fa-lg"></i> Mastodon</a>
+        <a href="javascript:alert(linkTwt)" class="lnk1 lnk"><i class="fa-brands fa-twitter fa-lg"></i> Twitter/X <i style="font-size:0.8rem;">(inactive)</i></a>
         <a href="https://www.youtube.com/c/sz5ylv1a" class="lnk3 lnk"><i class="fa-brands fa-youtube fa-lg"></i> YouTube</a>
         <a href="https://odysee.com/@sz5ylv1a:4" class="lnk4 lnk"><i class="fa-brands fa-odysee fa-lg"></i> Odysee</a>
         <a href="https://www.deviantart.com/sz5ylv1a" class="lnk5 lnk"><i class="fa-brands fa-deviantart fa-lg"></i> DeviantArt</a>
@@ -87,4 +88,7 @@
     <footer></footer>
 </body>
 <script src="script.js"></script>
+<script>
+    var linkTwt = 'The account is no longer in use, so you will not be redirected to it.\nTry Bluesky or Mastodon instead!'
+</script>
 </html>

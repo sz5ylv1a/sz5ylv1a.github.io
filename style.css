@@ -93,7 +93,6 @@ video, audio {
     box-shadow: 0 3px 5px #000;
 	margin:auto;
 	width:87.5%;
-    margin-top: 85 !important;
 }
 .content .footer {
 	min-height: 100%;
@@ -197,6 +196,20 @@ video, audio {
     }
     .desknav {
         display: none;
+    }
+    .content {
+        width: initial;
+        margin: 0;
+        border-radius: 0;
+    }
+    video {
+        max-width: 100%;
+    }
+    nav ul {
+        width: 95%;
+    }
+    footer {
+        width: 98% !important;
     }
 }
 
