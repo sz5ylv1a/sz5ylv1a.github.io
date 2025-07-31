@@ -1,9 +1,23 @@
 @import "style.min.css";
+@import "/fontawesome/css/brands.min.css";
+
 body {
 	text-align: center;
 }
 h2 {
 	text-align: left;
+}
+h4 {
+	margin-top: 0;
+	float: right;
+	text-align: right;
+	font-weight: 400;
+	font-style: italic;
+	opacity: 0.4;
+}
+h4 a:hover {
+	font-weight: 900;
+	text-decoration: underline;
 }
 .lnk {
 	font-weight: 500;
@@ -26,6 +40,12 @@ h2 {
 .lnk:active {
 	scale: 1.05;
 	transition: none;
+}
+.lnk1 {
+	background: #0085ff;
+}
+.lnk1:hover {
+	background: #0062dc;
 }
 .lnk2 {
 	background: #595aff;
@@ -52,22 +72,22 @@ h2 {
 	background: #00b279;
 }
 .lnk6 {
-	background: #5865f2;
+	background: #fda238;
 }
 .lnk6:hover {
-	background: #444fbf;
+	background: #e97526;
 }
 .lnk7 {
-	background: #5a96d0;
+	background: #5865f2;
 }
 .lnk7:hover {
-	background: #43729e;
+	background: #444fbf;
 }
 .lnk8 {
-	background: #1d4ed8;
+	background: #5a96d0;
 }
 .lnk8:hover {
-	background: #153ca5;
+	background: #43729e;
 }
 .lnk9 {
 	background: #010409;
@@ -76,24 +96,16 @@ h2 {
 	background: #000;
 }
 .lnk10 {
-	background: #0085ff;
-}
-.lnk10:hover {
-	background: #0062dc;
-}
-.lnk11 {
-	background: #fda238;
-}
-.lnk11:hover {
-	background: #e97526;
-}
-.lnk12 {
 	background: #ff5f5f;
 }
-.lnk12:hover {
+.lnk10:hover {
 	background: #c42b2b;
 }
 i {
 	font-weight: normal !important;
-	margin-right: 5px;
+	margin-right: 6px;
+}
+img {
+	float: left;
+	margin-right: 8px;
 }
