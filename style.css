@@ -4,7 +4,7 @@
 @import "fontawesome/css/all.min.css";
 
 :root {
-	font-family: Asap, Arial, Helvetica, sans-serif, Noto Color Emoji, Noto Emoji;
+	font-family: Asap, Arial, Helvetica, sans-serif, "Noto Color Emoji", "Noto Emoji";
 	background-color: rgb(4,21,13);
 	background: linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed;
 	background-size: cover;
