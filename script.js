@@ -6,7 +6,7 @@ document.querySelector("header").innerHTML = `
 		<img src="/resources/images/placeholder-logo.png" alt="sz5ylv1a" height="40" type="img/png">
 		</a></li>
 		<li class="drop">
-		<button onclick="dropDown()" class="btn dropbtn">&#9776;</button>
+		<button onclick="_dropDown()" class="btn dropbtn">&#9776;</button>
 			<div id="droppp" class="dropmenu">
 				<a href="/">Home</a>
 				<a href="/about.html">About Me</a>
@@ -23,29 +23,24 @@ document.querySelector("header").innerHTML = `
 </nav>
 `;
 document.querySelector("footer").innerHTML = `
-<div class="currentver">v0.1.1 &bull; Last updated: 06/23/2025 &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
-<div class="fakecrdate">sz5ylv1a &copy; 2017-<year id="currentYear"></year></div>
+<div class="currentver">v0.1.2 &bull; Last updated: 08/02/2025 &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+<div class="fakecrdate">sz5ylv1a &copy; 2017-2025</div>
 `;
 
 
 // mobile dropdown menu
-function dropDown() {
+function _dropDown() {
 	document.getElementById("droppp").classList.toggle("show");
 }
-	window.onclick = function(event) {
-		if (!event.target.matches('.dropbtn')) {
-			var dropdowns = document.getElementsByClassName("dropmenu");
-			var i;
-			for (i = 0; i < dropdowns.length; i++) {
-				var openDropdown = dropdowns[i];
-				if (openDropdown.classList.contains('show')) {
-					openDropdown.classList.remove('show');
-				}
+window.onclick = (event) => {
+	if (!event.target.matches('.dropbtn')) {
+		const dropdowns = document.getElementsByClassName("dropmenu");
+	let i;
+		for (i = 0; i < dropdowns.length; i++) {
+			const openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
 			}
 		}
 	}
-
-// automatic current year indicator thing for footer
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("currentYear").innerHTML = year;
+}

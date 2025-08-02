@@ -1,187 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Changelog | sz5ylv1a</title>
-    <link rel="me" href="https://meow.social/@sz5ylv1a">
-    <link rel="stylesheet" media="screen and (max-width:850px)">
-    <meta content="sz5ylv1a" property="og:title" />
-    <meta content="it's sylvia's website!!!!!!!" property="og:description" />
-    <meta content="https://sz5ylv1a.github.io/" property="og:url" />
-    <meta content="https://sz5ylv1a.github.io/resources/images/thing.jpg" property="og:image" />
-    <meta content="#c5f5c3" data-react-helmet="true" name="theme-color" />
-    <style>
-        @import "style.min.css";
-        a {text-decoration:underline}
-        .content li {
-            margin-left: 15px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Changelog | sz5ylv1a</title>
+	<link rel="me" href="https://meow.social/@sz5ylv1a">
+	<link rel="stylesheet" media="screen and (max-width:850px)">
+	<meta content="sz5ylv1a" property="og:title" />
+	<meta content="Sylvia's personal website, containing an extended bio about myself, as well as links to other social media sites and such." property="og:description" />
+	<meta name="description" content="sz5ylv1a's personal website, containing an extended bio about myself, as well as links to other social media sites and such.">
+	<meta content="https://sz5ylv1a.github.io/" property="og:url" />
+	<meta content="https://sz5ylv1a.github.io/resources/images/thing.png" property="og:image" />
+	<meta content="#c5f5c3" data-react-helmet="true" name="theme-color" />
+	<style>@import "style.min.css";.content a{text-decoration:underline}.content li{margin-left:15px}</style>
 </head>
 <body>
-    <header></header>
-    <div class="content">
-        <h2>Site Changelog <i>(release dates are in mm/dd/yyyy)</i></h2>
-        <li id="0.1.1">v0.1.1 - 10/27/2024</li>
-        <br>a little polishing...<ul>
-            <li>increased width of the mobile view so that more content can fit</li>
-            <li>twitter link is now no longer available since i left the platform for good; button link will be removed in a later update</li>
-            <li>contrary to the last one, positions for Twitter and Bluesky have been swapped to better prioritize the other two social media platforms</li>
-        </ul>
-        <hr>
-        <li id="0.1.0">v0.1.0 - 09/22/2024</li>
-        <br>aaaand we're out of "the alpha stage"! here's what I got to offer:<ul>
-            <li>completely revamped the navigation bar
-                <ul>
-                    <li>it will now be using the <code>&#60;nav&#62;</code> tag instead of this whole mess of <code>&#60;div&#62;</code> tags</li>
-                    <li>dropdown menu has been redone from scratch, so now navigating on mobile and lower res screens shouldn't be painfully garbage</li>
-                    <li>height has been shrinked by a couple pixels</li>
-                    <li>slight green tint has been added when hovering over menu items</li>
-                </ul>
-            <li>internal site layout has been reconstructed too so it should look more correct when looking inside</li>
-            <li>changed and added some links to various pages and global elements, including the footer</li>
-            <li>slightly tweaked css animations on social link buttons in <a href="socials.html">Socials</a> tab</li>
-            <li>slightly updated multiple pages</li>
-            <li>error pages have been moved to a separate folder</li>
-            <li>...and a lot more changes!</li>
-            </ul>
-            <hr class="majordiv">
-        <li id="0.0.15a">v0.0.15a - 06/27/2024</li>
-        <br>welp, now that my finals are done, time to get back to the fun!!<ul>
-            <li>FAQ page is now moved to the About Me as a subsection, as well as other additions and changes to that page. Dedicated FAQ page will be replaced with something else later.
-            <li>Odysee's icon has been changed to the real one instead of keeping Font Awesome's astronaut icon as a replacement
-            <li>"Steam Profile" simplified to "Steam"
-            <li>internal code tweaks like beautifying, adding site embed stuff globally and removing stuff that does nothing
-            <li>back button for nikola textla was added for slightly easier navigation
-            <li>changelog dates were not ordered properly, so I fixed those
-            <li>header and footer will now be handled by a simple JavaScript file, meaning the site will now also require JavaScript enabled to function properly
-        </ul>
-        <hr>
-        <li id="0.0.14c">v0.0.14c - 05/04/2024</li>
-        <br>minor update changelog thing cuz i'm LAAAZYYY :P<ul>
-            <li>error pages have been all fixed up temporarily cuz I forgot to change them back post-migration
-            <li>changelogs will now use ids instead of individual html tags that do nothing
-            <li>fake copyright date has been updated because I forgot to do that as well, my bad
-            <li>about me has been slightly changed to feature more text, will be updated with more detailed info in a later update
-        </ul>
-        <hr>
-        <li id="0.0.14b">v0.0.14b - 11/29/2023</li>
-        <br>well hey, long time no see, let's see what I decided to add and change<ul>
-            <li>socials and about pages have been updated, adding more links and correcting outdated info
-            <li>rest in peace, sz5ylv1a.tk, you will be missed :(
-            <li>changed title of the main page to make it more friendlier
-            <li><i>no I will not change the twitter icon to the X, I don't like it</i>
-        </ul>
-        <hr>
-        <li id="0.0.14a">v0.0.14a - 12/04/2022</li>
-        <ul>
-            <li>fontawesome has been installed, all social links will have an icon now
-            <li>a bit of code cleanup for the changelog as there were a couple unused variables
-        </ul>
-        <hr>
-        <li id="0.0.13">v0.0.13 - 11/27/2022</li>
-        <ul>
-            <li>a little bit of code cleanup by moving the google fonts api requests to the css file
-            <li>added more content to the homepage and changed up some capitalizations there and on the socials page
-        </ul>
-        <hr>
-        <li id="0.0.12">v0.0.12 - 11/19/2022</li>
-        <ul>
-            <li>quick fix for mobile layout, should display there correctly now
-            <li>slight change on socials so it can be more spaced out when it overflows to second line
-        </ul>
-        <hr>
-        <li id="0.0.11">v0.0.11 - 11/18/2022</li>
-        <ul>
-            <li>changed up the nav bar a bit so it should display a bit better on phones; if not then i'll work on a fix later
-            <li>two new socials links, one I didn't add earlier
-            <li>now there's a more detailed about me page
-            <li>slight codebase cleanup because some stuff was just outright unnecessary
-        </ul>
-        <hr>
-        <li id="0.0.10">v0.0.10 - 11/16/2022</li>
-        <br>conflicting version number ik but anyway have minor changes<ul>
-            <li>made a discord embed, but only works with the homepage. sorry!
-            <li>replaced view github version with a direct link to the source code as I don't really maintain the github version 
-            <li>gave error pages a red background
-            <li>fixed <a href="403.html">403</a> page not rendering the same as the other error pages
-        </ul>
-        <hr>
-        <li id="0.0.9">v0.0.9 - 11/14/2022</li>
-        <ul>
-            <li>redesigned the navigation bar
-            <li>slightly widened the whole page
-            <li>fixed some links in socials tab not animating properly
-        </ul>
-        <hr>
-        <li id="0.0.8">v0.0.8 - 11/12/2022</li>
-        <ul>
-            <li>minor redesign to error pages
-            <li>new favicon woah
-            <li>last updated date will be shown on footer now
-            <li>custom scrollbar!!!
-            <li>slight fix on website body so force dark mode extensions should work fine here
-        </ul>
-        <hr>
-        <li id="0.0.7">v0.0.7 - 10/31/2022</li>
-        <br>here's another somewhat big one<ul>
-            <li>implemented a couple css animation to certain elements, like the menu items <i>(there will be a blue flash that i don't know how to fix, sorry!)</i>
-            <li>redesigned the <a href="socials.html">socials</a> tab with buttons, will add icons to it later
-            <li>changed the html margin so zooming in and out doesn't look weird
-            <li>fixed the page background, should no longer stretch to the page's height
-        </ul>
-        <hr>
-        <li id="0.0.6b">v0.0.6b - 10/31/2022</li>
-        <ul>
-            <li>embedded an audio file to the homepage
-            <li>footer stuff exists now
-        </ul>
-        <hr>
-        <li id="0.0.6a">v0.0.6a - 10/30/2022</li>
-        <ul>
-            <li>slightly revamped the <a href="socials.html">socials</a> tab and added a github link (has nothing on it atm)
-            <li>changed link styles in the changelog page
-            <li>added actual content to the <a href="faq.html">FAQ</a> page now woah crazy ik
-            <li>capitalized some headers
-            <li>removed the under construction mark from page titles; the homepage already explains that
-            <li>embedded a flash animation a friend of mine made to the homepage; I might as well add more content
-        </ul>
-        <hr>
-        <li id="0.0.5">v0.0.5 - 10/28/2022</li>
-        <br>oh boy this is a big one, let's see what are the changes<ul>
-            <li>major site overhaul
-            <li>logo is an image now instead of a text <i>(it is currently a placeholder though)</i>
-            <li>a <a href="faq.html">FAQ</a> page has been added, will work on that later
-            <li><a href="401.html">401</a> page also exists now
-        </ul>
-        <hr>
-        <li id="0.0.4">v0.0.4 - 10/25/2022</li>
-        <ul>
-            <li>menu items are in one line now!
-            <li>added a couple margins to certain elements
-            <li>spacehey has been added because yes
-            <li>added <a href="404.html">404</a> and <a href="403.html">403</a> pages
-        </ul>
-        <hr>
-        <li id="0.0.3">v0.0.3 - 10/24/2022</li>
-        <ul>
-            <li>added google fonts apis so fonts should display as intended
-            <li>fixed website titles not displaying correctly
-        </ul>
-        <hr>
-        <li id="0.0.2">v0.0.2 - 10/23/2022</li>
-        <ul>
-            <li>colorized the two links from socials that i forgot to do
-            <li>added steam profile because why the hell not
-        </ul>
-        <hr>
-        <li id="0.0.1">v0.0.1 - 10/21/2022</li>
-        <ul>
-            <li>this site was created. what? expected crazy stuff?
-        </ul>
-    </div>
-    <footer></footer>
+	<header></header>
+	<div class="content">
+		<h2>Site Changelog <i>(release dates are in mm/dd/yyyy)</i></h2>
+		<li id="0.1.2">v0.1.2 - 08/02/2025</li>
+		<br>oh hey an update!! hasn't happened in a while, huh?
+		<ul>
+			<li>Discord server has now been replaced with an URI to my profile, as I do not maintain my server anymore and have sunsetted it for good since. A little notice for this has been added in case for those clicking on the button for the first time</li>
+			<li>link to Twitter has now been removed for good, as foreshadowed from the last update</li>
+			<li>fixed a bunch of CSS properties missing unit measurements, so everything should look right</li>
+			<li>updated embed code for the Google Fonts import of the font used for this website, which is Asap; alongside changing the emoji set to Noto Color Emoji instead of leeching off of Firefox's Twemoji set (which is already outdated)</li>
+			<li>after careful consideration, I will not add Patreon to my profile, but Ko-fi should do the job anyways <i>(if I ever end up utilizing it)</i></li>
+			<li>site description(s) rewritten entirely to look more "professional" and "SEO-friendly"</li>
+			<li>add an instant redirect to the <a href="about.html">About</a> page when trying to go to the separate <i>(and now technically deprecated)</i> FAQ page</li>
+			<li>removed link to SpaceHey due to excessive inactivity</li>
+			<li>replace Newgrounds and Ko-fi icons with custom-made edited ones instead of placeholders from Font Awesome</li>
+			<li>big code cleanup and linting of CSS and JS files</li>
+		</ul>
+		<hr>
+		<li id="0.1.1">v0.1.1 - 10/27/2024</li>
+		<br>a little polishing...
+		<ul>
+			<li>increased width of the mobile view so that more content can fit</li>
+			<li>twitter link is now no longer available since i left the platform for good; button link will be removed in a later update</li>
+			<li>contrary to the last one, positions for Twitter and Bluesky have been swapped to better prioritize the other two social media platforms</li>
+		</ul>
+		<hr>
+		<li id="0.1.0">v0.1.0 - 09/22/2024</li>
+		<br>aaaand we're out of "the alpha stage"! here's what I got to offer:
+		<ul>
+			<li>completely revamped the navigation bar</li>
+			<ul>
+				<li>it will now be using the <code>&#60;nav&#62;</code> tag instead of this whole mess of <code>&#60;div&#62;</code> tags</li>
+				<li>dropdown menu has been redone from scratch, so now navigating on mobile and lower res screens shouldn't be painfully garbage</li>
+				<li>height has been shrinked by a couple pixels</li>
+				<li>slight green tint has been added when hovering over menu items</li>
+			</ul>
+			<li>internal site layout has been reconstructed too so it should look more correct when looking inside</li>
+			<li>changed and added some links to various pages and global elements, including the footer</li>
+			<li>slightly tweaked css animations on social link buttons in <a href="socials.html">Socials</a> tab</li>
+			<li>slightly updated multiple pages</li>
+			<li>error pages have been moved to a separate folder</li>
+			<li>...and a lot more changes!</li>
+		</ul>
+		<hr class="majordiv">
+		<li id="0.0.15a">v0.0.15a - 06/27/2024</li>
+		<br>welp, now that my finals are done, time to get back to the fun!!
+		<ul>
+			<li>FAQ page is now moved to the About Me as a subsection, as well as other additions and changes to that page. Dedicated FAQ page will be replaced with something else later.</li>
+			<li>Odysee's icon has been changed to the real one instead of keeping Font Awesome's astronaut icon as a replacement</li>
+			<li>"Steam Profile" simplified to "Steam"</li>
+			<li>internal code tweaks like beautifying, adding site embed stuff globally and removing stuff that does nothing</li>
+			<li>back button for nikola textla was added for slightly easier navigation</li>
+			<li>changelog dates were not ordered properly, so I fixed those</li>
+			<li>header and footer will now be handled by a simple JavaScript file, meaning the site will now also require JavaScript enabled to function properly</li>
+		</ul>
+		<hr>
+		<li id="0.0.14c">v0.0.14c - 05/04/2024</li>
+		<br>minor update changelog thing cuz i'm LAAAZYYY :P
+		<ul>
+			<li>error pages have been all fixed up temporarily cuz I forgot to change them back post-migration</li>
+			<li>changelogs will now use ids instead of individual html tags that do nothing</li>
+			<li>fake copyright date has been updated because I forgot to do that as well, my bad</li>
+			<li>about me has been slightly changed to feature more text, will be updated with more detailed info in a later update</li>
+		</ul>
+		<hr>
+		<li id="0.0.14b">v0.0.14b - 11/29/2023</li>
+		<br>well hey, long time no see, let's see what I decided to add and change
+		<ul>
+			<li>socials and about pages have been updated, adding more links and correcting outdated info</li>
+			<li>rest in peace, sz5ylv1a.tk, you will be missed :(</li>
+			<li>changed title of the main page to make it more friendlier</li>
+			<li><i>no I will not change the twitter icon to the X, I don't like it</i></li>
+		</ul>
+		<hr>
+		<li id="0.0.14a">v0.0.14a - 12/04/2022</li>
+		<ul>
+			<li>fontawesome has been installed, all social links will have an icon now</li>
+			<li>a bit of code cleanup for the changelog as there were a couple unused variables</li>
+		</ul>
+		<hr>
+		<li id="0.0.13">v0.0.13 - 11/27/2022</li>
+		<ul>
+			<li>a little bit of code cleanup by moving the google fonts api requests to the css file</li>
+			<li>added more content to the homepage and changed up some capitalizations there and on the socials page</li>
+		</ul>
+		<hr>
+		<li id="0.0.12">v0.0.12 - 11/19/2022</li>
+		<ul>
+			<li>quick fix for mobile layout, should display there correctly now</li>
+			<li>slight change on socials so it can be more spaced out when it overflows to second line</li>
+		</ul>
+		<hr>
+		<li id="0.0.11">v0.0.11 - 11/18/2022</li>
+		<ul>
+			<li>changed up the nav bar a bit so it should display a bit better on phones; if not then i'll work on a fix later</li>
+			<li>two new socials links, one I didn't add earlier</li>
+			<li>now there's a more detailed about me page</li>
+			<li>slight codebase cleanup because some stuff was just outright unnecessary</li>
+		</ul>
+		<hr>
+		<li id="0.0.10">v0.0.10 - 11/16/2022</li>
+		<br>conflicting version number ik but anyway have minor changes
+		<ul>
+			<li>made a discord embed, but only works with the homepage. sorry!</li>
+			<li>replaced view github version with a direct link to the source code as I don't really maintain the github version</li>
+			<li>gave error pages a red background</li>
+			<li>fixed <a href="403.html">403</a> page not rendering the same as the other error pages</li>
+		</ul>
+		<hr>
+		<li id="0.0.9">v0.0.9 - 11/14/2022</li>
+		<ul>
+			<li>redesigned the navigation bar</li>
+			<li>slightly widened the whole page</li>
+			<li>fixed some links in socials tab not animating properly</li>
+		</ul>
+		<hr>
+		<li id="0.0.8">v0.0.8 - 11/12/2022</li>
+		<ul>
+			<li>minor redesign to error pages</li>
+			<li>new favicon woah</li>
+			<li>last updated date will be shown on footer now</li>
+			<li>custom scrollbar!!!</li>
+			<li>slight fix on website body so force dark mode extensions should work fine here</li>
+		</ul>
+		<hr>
+		<li id="0.0.7">v0.0.7 - 10/31/2022</li>
+		<br>here's another somewhat big one
+		<ul>
+			<li>implemented a couple css animation to certain elements, like the menu items <i>(there will be a blue flash that i don't know how to fix, sorry!)</i></li>
+			<li>redesigned the <a href="socials.html">socials</a> tab with buttons, will add icons to it later</li>
+			<li>changed the html margin so zooming in and out doesn't look weird</li>
+			<li>fixed the page background, should no longer stretch to the page's height</li>
+		</ul>
+		<hr>
+		<li id="0.0.6b">v0.0.6b - 10/31/2022</li>
+		<ul>
+			<li>embedded an audio file to the homepage</li>
+			<li>footer stuff exists now</li>
+		</ul>
+		<hr>
+		<li id="0.0.6a">v0.0.6a - 10/30/2022</li>
+		<ul>
+			<li>slightly revamped the <a href="socials.html">socials</a> tab and added a github link (has nothing on it atm)</li>
+			<li>changed link styles in the changelog page</li>
+			<li>added actual content to the <a href="faq.html">FAQ</a> page now woah crazy ik</li>
+			<li>capitalized some headers</li>
+			<li>removed the under construction mark from page titles; the homepage already explains that</li>
+			<li>embedded a flash animation a friend of mine made to the homepage; I might as well add more content</li>
+		</ul>
+		<hr>
+		<li id="0.0.5">v0.0.5 - 10/28/2022</li>
+		<br>oh boy this is a big one, let's see what are the changes<ul></li>
+			<li>major site overhaul</li>
+			<li>logo is an image now instead of a text <i>(it is currently a placeholder though)</i></li>
+			<li>a <a href="faq.html">FAQ</a> page has been added, will work on that later</li>
+			<li><a href="401.html">401</a> page also exists now</li>
+		</ul>
+		<hr>
+		<li id="0.0.4">v0.0.4 - 10/25/2022</li>
+		<ul>
+			<li>menu items are in one line now!</li>
+			<li>added a couple margins to certain elements</li>
+			<li>spacehey has been added because yes</li>
+			<li>added <a href="404.html">404</a> and <a href="403.html">403</a> pages</li>
+		</ul>
+		<hr>
+		<li id="0.0.3">v0.0.3 - 10/24/2022</li>
+		<ul>
+			<li>added google fonts apis so fonts should display as intended</li>
+			<li>fixed website titles not displaying correctly</li>
+		</ul>
+		<hr>
+		<li id="0.0.2">v0.0.2 - 10/23/2022</li>
+		<ul>
+			<li>colorized the two links from socials that i forgot to do</li>
+			<li>added steam profile because why the hell not</li>
+		</ul>
+		<hr>
+		<li id="0.0.1">v0.0.1 - 10/21/2022</li>
+		<ul>
+			<li>this site was created. what? expected crazy stuff?</li>
+		</ul>
+	</div>
+	<footer></footer>
 </body>
 <script src="script.js"></script>
 </html>
