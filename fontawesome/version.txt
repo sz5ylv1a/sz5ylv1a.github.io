@@ -1,5 +1,0 @@
-Installed version:
-6.6.0
-
-
-This file's only purpose is to report the current version of FontAwesome installed.
