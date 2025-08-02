@@ -23,7 +23,7 @@ document.querySelector("header").innerHTML = `
 </nav>
 `;
 document.querySelector("footer").innerHTML = `
-<div class="currentver">v0.1.2 &bull; Last updated: 07/31/2025 &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+<div class="currentver">v0.1.2 &bull; Last updated: 08/02/2025 &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
 <div class="fakecrdate">sz5ylv1a &copy; 2017-2025</div>
 `;
 
