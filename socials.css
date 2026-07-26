@@ -42,60 +42,70 @@ h4 a:hover {
 	scale: 1.05;
 	transition: none;
 }
+/* Bluesky */
 .lnk1 {
 	background: #0085ff;
 }
 .lnk1:hover {
 	background: #0062dc;
 }
+/* Mastodon */
 .lnk2 {
 	background: #595aff;
 }
 .lnk2:hover {
 	background: #2728cd;
 }
+/* YouTube */
 .lnk3 {
 	background: #dd1f1d;
 }
 .lnk3:hover {
 	background: #aa1816;
 }
+/* Odysee */
 .lnk4 {
 	background: #de0050;
 }
 .lnk4:hover {
 	background: #ac001e;
 }
+/* DeviantArt */
 .lnk5 {
 	background: #00e59b;
 }
 .lnk5:hover {
 	background: #00b279;
 }
+/* Newgrounds */
 .lnk6 {
 	background: #fda238;
 }
 .lnk6:hover {
 	background: #e97526;
 }
+/* Discord */
 .lnk7 {
 	background: #5865f2;
 }
 .lnk7:hover {
 	background: #444fbf;
 }
+/* Steam */
 .lnk8 {
 	background: #5a96d0;
 }
 .lnk8:hover {
 	background: #43729e;
 }
+/* GitHub */
 .lnk9 {
 	background: #010409;
 }
 .lnk9:hover {
 	background: #000;
 }
+/* Ko-fi */
 .lnk10 {
 	background: #ff5f5f;
 }
@@ -103,7 +113,7 @@ h4 a:hover {
 	background: #c42b2b;
 }
 i {
-	font-weight: normal !important;
+	font-weight: 400;
 	margin-right: 6px;
 }
 .content img {

@@ -31,10 +31,9 @@ h2 {
 body {
 	margin: auto;
 	text-align: justify;
-	background: transparent !important;
+	background: transparent;
 }
 header {
-	position: -webkit-sticky; /* fix for Safari even tho it's very unlikely somebody will be visiting the site with safari unless they're using an iPhone or iPad */
 	position: sticky;
 	width: 100%;
 	margin: auto;
@@ -113,6 +112,9 @@ video {
 video, audio {
 	margin-top: 5px;
 	box-shadow: 0 3px 5px #0006;
+}
+.web-buttons {
+	image-rendering: crisp-edges;
 }
 
 /* dark mode! :D */

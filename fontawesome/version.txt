@@ -1,7 +1,7 @@
 Installed version:
-7.0.0
+7.3.1
 
 Last updated:
-07/31/2025
+2026-07-27
 
 This file's only purpose is to report the current version of FontAwesome installed.
