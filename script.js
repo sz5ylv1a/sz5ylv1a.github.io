@@ -15,7 +15,7 @@ document.querySelector("header").innerHTML = `
 			</div>
 		</li>
 		<!-- <li class="darkbtn"><button onclick="darkMode()" class="btn darktoggle"><i class="fa-solid fa-moon"></i></button></li> -->
-		<li class="desknav"><a href="/changelog.html">Changelog</a></li>
+		<li class="desknav"><a href="/changelog.html" style="margin-right:0%">Changelog</a></li>
 		<li class="desknav"><a href="/socials.html">Socials</a></li>
 		<li class="desknav"><a href="/about.html">About Me</a></li>
 		<li class="desknav"><a href="/">Home</a></li>
