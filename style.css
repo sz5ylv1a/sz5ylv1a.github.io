@@ -113,8 +113,16 @@ video, audio {
 	margin-top: 5px;
 	box-shadow: 0 3px 5px #0006;
 }
+details summary {
+	font-size: 1.25rem;
+	cursor: pointer;
+}
 .web-buttons {
 	image-rendering: crisp-edges;
+}
+.web-buttons img {
+	max-width: 88px;
+	max-height: 31px;
 }
 
 /* dark mode! :D */
@@ -229,5 +237,8 @@ footer {
 	}
 	nav ul {
 		width: 95%;
+	}
+	nav li a {
+		margin: 0%;
 	}
 }
