@@ -8,13 +8,15 @@ h2 {
 	text-align: left;
 }
 h4 {
+	color: #999;
 	margin-top: 0;
 	float: right;
 	text-align: right;
 	font-weight: 400;
 	font-style: italic;
-	opacity: 0.4;
-	z-index: -1;
+}
+.content a {
+	color: #999;
 }
 h4 a:hover {
 	font-weight: 900;

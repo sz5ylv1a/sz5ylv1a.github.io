@@ -10,6 +10,7 @@ document.querySelector("header").innerHTML = `
 			<div id="droppp" class="dropmenu">
 				<a href="/">Home</a>
 				<a href="/about.html">About Me</a>
+				<a href="/projects.html">Projects</a>
 				<a href="/socials.html">Socials</a>
 				<a class="droplastoption" href="/changelog.html">Changelog</a>
 			</div>
@@ -17,15 +18,14 @@ document.querySelector("header").innerHTML = `
 		<!-- <li class="darkbtn"><button onclick="darkMode()" class="btn darktoggle"><i class="fa-solid fa-moon"></i></button></li> -->
 		<li class="desknav"><a href="/changelog.html" style="margin-right:0%">Changelog</a></li>
 		<li class="desknav"><a href="/socials.html">Socials</a></li>
+		<li class="desknav"><a href="/projects.html">Projects</a></li>
 		<li class="desknav"><a href="/about.html">About Me</a></li>
 		<li class="desknav"><a href="/">Home</a></li>
 	</ul>
-</nav>
-`;
+</nav>`;
 document.querySelector("footer").innerHTML = `
-<div class="currentver">v0.1.3.2 &bull; Last updated: <time datetime="2026-08-30">2026/08/30</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
-<div class="fakecrdate">sz5ylv1a &copy; 2017-2026</div>
-`;
+<div class="currentver">v0.1.4 &bull; Last updated: <time datetime="2026-08-30">2026/08/30</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+<div class="fakecrdate">sz5ylv1a &copy; 2017-2026</div>`;
 
 
 // mobile dropdown menu
