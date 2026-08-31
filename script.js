@@ -24,7 +24,7 @@ document.querySelector("header").innerHTML = `
 	</ul>
 </nav>`;
 document.querySelector("footer").innerHTML = `
-<div class="currentver">v0.1.4 &bull; Last updated: <time datetime="2026-08-30">2026/08/30</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+<div class="currentver">v0.1.4.1 &bull; Last updated: <time datetime="2026-08-31">2026/08/31</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
 <div class="fakecrdate">sz5ylv1a &copy; 2017-2026</div>`;
 
 
