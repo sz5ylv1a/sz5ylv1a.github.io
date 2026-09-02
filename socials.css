@@ -16,7 +16,7 @@ h4 {
 	font-style: italic;
 }
 .content a {
-	color: #999;
+	color: inherit;
 }
 h4 a:hover {
 	font-weight: 900;
