@@ -1,7 +1,8 @@
-@import url("../style.css");
+@import url("../style.min.css");
 
 :root {
-	background: linear-gradient(180deg, #260200 0%, #720003 100%) no-repeat center fixed;
+	background: #260200 url("../resources/images/errorbg-1080.webp") no-repeat center fixed;
+	background-size: cover;
 	scrollbar-color: #720003 #260200;
 }
 h2 {
@@ -9,6 +10,8 @@ h2 {
     margin-bottom: 10px;
 }
 .content {
+	background-color: #ff606080;
+	color: #fff;
     text-align: center
 }
 p {

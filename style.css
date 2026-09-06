@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Noto+Color+Emoji&family=Noto+Emoji:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Color+Emoji&family=Noto+Emoji:wght@300..700&display=swap');
 
 :root {
 	font-family: Asap, Arial, Helvetica, sans-serif, "Noto Color Emoji", "Noto Emoji";
-	background: linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed;
+	/*background: rgb(10,60,37) linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed;*/
+	background: #a8d7be image-set(
+		"/resources/images/bg-1080.webp" 1x,
+		"/resources/images/bg-2160.webp" 2x
+	) no-repeat center fixed;
 	background-size: cover;
 	color: white;
 	scrollbar-color: rgb(10,60,37) rgb(4,21,13);
 	scrollbar-width: thin;
-	font-size: 1.0rem;
+	font-size: 1rem;
+}
+code, kbd {
+	font-family: "JetBrains Mono", "Cascadia Mono", "Consolas", "Lucida Console", "Courier New", Courier, monospace;
+	font-size: 0.9rem;
+	background-color: #ffffff80;
+	border-radius: 4px;
+	padding: 0 4px;
 }
 html {
 	min-height: 100%;
@@ -31,7 +42,8 @@ h2 {
 body {
 	margin: auto;
 	text-align: justify;
-	background: transparent !important; /* the important flag is for dark reader to work well */
+	background: transparent; /* the important flag is for dark reader to work well */
+	z-index: 1;
 }
 header {
 	position: sticky;
@@ -39,7 +51,8 @@ header {
 	margin: auto;
 	padding: 0%;
 	top: 0;
-	background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+	background: linear-gradient(180deg, rgba(0,0,0,.9) 0%, #00000000 100%);
+	z-index: 100;
 }
 nav ul {
 	list-style-type: none;
@@ -60,7 +73,7 @@ nav li a {
 	padding: 25px 0%;
 	margin: 0% 20px;
 	text-decoration: none;
-	text-shadow: 0 3px 5px #000;
+	text-shadow: 0 3px 5px #000000a0;
 	transition: ease-out 0.25s color;
 }
 nav li a:hover {
@@ -81,13 +94,16 @@ video, audio {
 	margin: 17px 0 0 0;
 }
 .content {
-	background-color: #fff;
+	background-color: #ffffff80;
+	backdrop-filter: blur(16px);
+	/*text-shadow: 0px 3px 5px #00000060;*/
 	color: #000;
 	border-radius: 10px;
 	padding: 15px;
-	box-shadow: 0 3px 5px #000;
-	margin:auto;
-	width:87.5%;
+	box-shadow: 0 3px 5px #00000080;
+	margin: auto;
+	width: 87.5%;
+	z-index: 5;
 }
 .content .footer {
 	min-height: 100%;
@@ -126,10 +142,13 @@ details summary {
 }
 
 /* dark mode! :D */
-/* will be enabled later once i figure out a way to not force it to be auto */
-/* @media (prefers-color-scheme: dark) {
+/*will be enabled later once I figure out a way to not force it to be auto */
+/*@media (prefers-color-scheme: dark) {
+	code, kbd {
+		background-color: #00000080;
+	}
 	.content {
-		background-color: #222;
+		background-color: #10101080;
 		color: #fff;
 	}
 	.content a {
@@ -138,7 +157,10 @@ details summary {
 	.content a:hover {
 		color: #ccc;
 	}
-} */
+	hr, hr.majordiv {
+		border-color: #fff;
+	}
+}*/
 
 /* mobile layout handling */
 .btn {
@@ -167,29 +189,32 @@ details summary {
 .dropmenu {
 	display: none;
 	position: absolute;
-	background-color: #fff;
-	min-width: 50%;
-	box-shadow: 0 3px 5px #0003;
+	background-color: #ffffff80;
+	backdrop-filter: blur(16px);
+	min-width: 256px;
+	box-shadow: 0 3px 5px #00000040;
 	top: 0;
 	right: 0;
 	z-index: 69;
 	border-radius: 0 0 0 10px;
 }
 .dropmenu a {
+	background: linear-gradient(180deg, #eeffee00 0%, #dfffdf00 35%, #dfffdf00 65%, #ccffcc00 100%);
 	color: #000;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 	text-align: right;
 	text-shadow: none;
-	transition: ease-out 0.25s background;
+	transition: background 250ms ease-out;
+	margin: 0%;
 }
 .dropmenu a:hover {
-	background-color: #bcb;
+	background: linear-gradient(180deg, #eeffeea0 0%, #dfffdf40 35%, #dfffdf40 65%, #ccffcca0 100%);
 	color: #000;
 }
 .dropmenu a:active {
-	background-color: #ada;
+	background: linear-gradient(180deg, #eeffeea0 0%, #dfffdf40 35%, #dfffdf40 65%, #ccffcca0 100%);
 	color: #000;
 	transition: none;
 }
@@ -205,19 +230,16 @@ footer {
 	flex: 0 0 auto;
 	margin: auto;
 	width: 87.5%;
+	text-shadow: 0 2px 3px #000;
 }
 .currentver {
 	display: block;
-	text-shadow: 0 2px 3px #000;
 	margin: 15px 0 15px -15px;
 }
 .fakecrdate {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	flex: 0 0 auto;
+	display: block;
 	margin: 15px -15px 15px 0;
-	text-shadow: 0 2px 3px #000;
+	text-align: right;
 }
 
 @media screen and (max-width:824px) {
@@ -238,7 +260,15 @@ footer {
 	nav ul {
 		width: 95%;
 	}
-	nav li a {
-		margin: 0%;
+	footer {
+		display: initial;
+		text-align: center;
+	}
+	.currentver {
+		margin: 15px 0;
+	}
+	.fakecrdate {
+		text-align: center;
+		margin: 15px 0;
 	}
 }

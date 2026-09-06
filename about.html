@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About me | sz5ylv1a</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>About Me | sz5ylv1a</title>
 	<link rel="me" href="https://meow.social/@sz5ylv1a">
 	<link rel="stylesheet" media="screen and (max-width:850px)">
 	<meta content="sz5ylv1a" property="og:title" />
@@ -16,25 +16,25 @@
 	<style>
 		@import "style.min.css";
 		.content li, .content dd {padding-bottom:5px;}
-		.content li {font-weight:600;margin-left:-20px;padding-left:4px;}
+		.content li {margin-left:-20px;padding-left:4px;}
 		.content dd {margin-left:-16px;}
-		h3 {margin-bottom:0px;}
+		.sublist {padding-top:5px;}
+		h3, h4 {margin-bottom:0px;}
+		h4 {margin-top:12px;}
 		.sylvia {float:right;margin:0 0 0 15px;}
 		.sylvia img {border-radius:10px;box-shadow:0 3px 5px #0006;}
-		figcaption {font-size:0.9rem;text-align:right;font-style:italic;opacity:0.4;padding:8px 6px}
+		figcaption {font-size:0.9rem;text-align:right;font-style:italic;color:rgba(0,0,0,0.4);padding:8px 6px}
 		#faq {margin-bottom: 8px}
-		figcaption a:hover {text-decoration: underline}
-		.status-online {list-style-type: "🟢";}
-		.status-away {list-style-type: "🟡";}
-		.status-dnd {list-style-type: "🔴";}
-		.status-invis {list-style-type: "⚫";}
+		figcaption a {color:rgba(0,0,0,0.4)}
+		figcaption a:hover {text-decoration:underline}
+		.statuses li {font-weight:600;}
 	</style>
 </head>
 <body>
 	<header></header>
 	<div class="content">
 		<figure class="sylvia">
-			<img src="resources/images/Sylvia.webp" title='art by @Leandro170' alt="" width="256">
+			<img src="resources/images/Sylvia.webp" title='art by @Leandro170' alt="Sylvia (me) laying down on a grassy field facing upwards" width="256">
 			<figcaption>art by <a href="https://bsky.app/profile/leandro170.bsky.social" target="_blank">@Leandro170</a>, 2026</figcaption>
 		</figure>
 		<h2 id="bio">About me!</h2>
@@ -42,16 +42,41 @@
 		My favorite games are usually rhythm games, mainly StepMania. I also like Tetris, Puyo Puyo, Minecraft, Geometry Dash, as well as Touhou Project. I also sometimes play a variety of other games too, including some difficult ones here and there that I personally enjoy playing. <em>(i.e. Celeste)</em><br>
 		I have a huge interest in tech in nearly all aspects; mostly on the software side, and a little bit on the hardware side. I also aspire to be a video game developer, especially for a planned future project lead by me and some of my friends.</p>
 		<h3>Online Statuses</h3>
-		<ul style="list-style-type:none;">
-			<li class="status-online">Online</li>
+		<ul class="statuses">
+			<li style="list-style-type:'🟢'">Online</li>
 			<dd>I'm available!</dd>
-			<li class="status-away">Away</li>
+			<li style="list-style-type:'🟡'">Away</li>
 			<dd>Away from my computer, or in a place where I'm nowhere near my computer.</dd>
-			<li class="status-dnd">Busy / Do not disturb</li>
+			<li style="list-style-type:'🔴'">Busy / Do not disturb</li>
 			<dd>Busy with stuff. I'm most likely drawing, studying, working on something, etc.<br>
 				It could also mean that I'm REALLY not in a good mood. <em>(although even in this case I rarely ever use this status)</em></dd>
-			<li class="status-invis">Offline / Invisible</li>
+			<li style="list-style-type:'⚫'">Offline / Invisible</li>
 			<dd>Unavailable, or I don't want to talk to anyone at the moment; but could also mean that I'm asleep or in an area with no internet connection available.</dd>
+		</ul>
+		<h3>What I use & their specs</h3>
+		<h4>Main PC *</h4>
+		<ul style="margin-bottom:0%;">
+			<li><strong>OS:</strong> Windows 10 Pro</li>
+			<li><strong>CPU:</strong> Intel Core i7-3770 @ 3.40GHz</li>
+			<li><strong>RAM:</strong> 16GB DDR3 @ 1600 MHz, Quad-channel <em>(4x4GB)</em></li>
+			<li><strong>GPU:</strong> NVIDIA GeForce 1050 Ti, 4GB VRAM</li>
+			<li><strong>Storage:</strong><ul class="sublist">
+				<li><strong>Main:</strong> Apacer AS340 120GB</li>
+				<li><strong>Secondary:</strong> WDC WD10EZEX-75M2NA0 1TB</li>
+			</ul></li>
+			<li><strong>Peripherals:</strong><ul class="sublist">
+				<li><strong>Mouse:</strong> Logitech G502 X Plus <em>(White)</em></li>
+				<li><strong>Keyboard:</strong> Corsair K70 CORE RGB <em>(Black)</em></li>
+				<li><strong>Monitor:</strong> ASUS VZ24EHE; 1920x1080 @ 75Hz</li>
+				<li><strong>Tablet:</strong> Wacom CTL-472</li>
+				<li><strong>Microphone:</strong> SAL M100USB</li>
+				<li><strong>Camera:</strong> Logitech C920 Webcam</li>
+			</ul></li>
+		</ul>
+		<p style="font-size:0.8rem;margin-top:0%;"><em>* I do have plans on switching to Linux, as well as upgrading my PC, but not right now</em></p>
+		<h4>Main Phone</h4>
+		<ul>
+			<li>Motorola Moto G54 (Power Edition)</li>
 		</ul>
 		<hr class="majordiv">
 		<h2 id="faq">"FAQ"</h2>
@@ -62,9 +87,9 @@
 		<p>I plan to start learning C++ in the future, and maybe later I could try doing other web development stuff.<br>
 		Right now I'm learning C#, but I do know a bit of Vue.js and I recently started learning and using Godot Engine.</p>
 		<hr class="majordiv">
-		<p style="margin:0%;">I have yet to put more stuff here, but for now you can find my socials <i>(which can include other information about me)</i> on the <a href="socials.html"><u>Socials</u></a> page!</p>
+		<p style="margin:0%;">I have yet to put more stuff here, but for now you can find my socials <em>(which can include other information about me)</em> on the <a href="socials.html"><u>Socials</u></a> page!</p>
 	</div>
 	<footer></footer>
-	<script src="script.min.js"></script>
+	<script src="script.min.js" async></script>
 </body>
 </html>

@@ -5,7 +5,7 @@ footer = document.querySelector("footer")
 try {
 	header.innerHTML = `
 	<nav>
-  	<ul>
+		<ul>
 			<li class="logo" style="float:left"><a href="/">
 			<img src="/resources/images/placeholder-logo.png" alt="sz5ylv1a" height="40" type="img/png">
 			</a></li>
@@ -27,7 +27,7 @@ try {
 			<li class="desknav"><a href="/">Home</a></li>
 		</ul>
 	</nav>`;
-	footer.innerHTML = `<div class="currentver">v0.1.4.2 &bull; Last updated: <time datetime="2026-09-02">2026/09/02</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+	footer.innerHTML = `<div class="currentver">v0.2.0 &bull; Last updated: <time datetime="2026-09-06">2026/09/06</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
 	<div class="fakecrdate">sz5ylv1a &copy; 2017-2026</div>`;
 } catch (e) {
 	console.error(e);

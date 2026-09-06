@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Changelog | sz5ylv1a</title>
 	<link rel="me" href="https://meow.social/@sz5ylv1a">
 	<link rel="stylesheet" media="screen and (max-width:850px)">
@@ -22,7 +22,25 @@
 		<p>This page documents all changes made to the site per version.<br>
 		All release dates are currently in <code>YYYY/MM/DD</code> format, but I might make something so it dynamically changes based on your device's regional setings.</p>
 		<hr class="majordiv">
-		<details id="0.1.4.2" open>
+		<details id="0.2.0" open>
+			<summary><strong>v0.2.0 - Codename Eucalpytus</strong> - <time datetime="2026-09-06">2026/09/06</time></summary>
+			<p style="margin-bottom:0%;">Hi! This is another major overhaul to the site's design and internal workings, which I'm gonna call <strong>"Codename Eucalpytus"</strong>. The goal with this is to have a design that feels a lot more fun and alive and not as clunky whilst retaining the limitations of only using pure HTML, CSS and JavaScript instead of something more fancy like Vue or React.</p>
+			<p style="margin:8px 0%;">This new design will feature a lot of prettier looking glass elements and graphics more reminiscent of late 2000s and early 2010s esque visuals, but with a small touch of modern stuff too; and you'll bet your ass that it'll look so pretty you wanna lick it, like Steve Jobs intended!</p>
+			<ul>
+				<li>Added a new background for the website, as well as a separate background for error pages <em>(both are provided by <a href="https://perfecthue.com/" target="_blank"><u>Perfect Hue</u></a>)</em></li>
+				<li>Redesigned certain pages to better reflect this new glass-like theme</li>
+				<li>Hid the web button for PlayStation <em>(check comments in source as to why)</em></li>
+				<li>Eliminated every instance of <code>!important</code> from the CSS code</li>
+				<li>Optimized footer to work better on the mobile view</li>
+				<li>Added current PC and Phone specs to the <a href="/about.html">About</a> page</li>
+				<li>Changed out the monospace font used for <code>code</code> and <kbd>kbd</kbd> to <strong>JetBrains Mono</strong>, as well as giving both elements a background</li>
+				<li>Added additional text to redirect pages</li>
+				<li>Proper fix to make the actual 404 page show up</li>
+				<li>Made script loading asynchronous for hopefully better load times</li>
+			</ul>
+		</details>
+		<hr class="majordiv">
+		<details id="0.1.4.2">
 			<summary><strong>v0.1.4.2</strong> - <time datetime="2026-09-02">2026/09/02</time></summary>
 			<ul>
 				<li>Slightly changed styling for some pages</li>
@@ -62,17 +80,17 @@
 		<hr>
 		<details id="0.1.3">
 			<summary><strong>v0.1.3</strong> - <time datetime="2026-07-26">2026/07/26</time></summary>
-		<p>I'M ALIVEEEEE- well, kinda. this one's not gonna be that big of a change though</p>
-		<ul>
-			<li>Change date formats from <code>MM/DD/YYYY</code> to <code>YYYY/MM/DD</code>, because... I'm not American</li>
-			<li>Added a secret page, which will be completed and revealed to the public later once I feel like it</li>
-			<li>Removed link to joncoale's site since it doesn't exist anymore</li>
-			<li>Removed the audio file from the main page as it's not as funny anymore and is associated with uhh... a rather controversial YouTuber</li>
-			<li>Added a few 88x31 buttons to the main page, including my own if you'd like to add it to your site!</li>
-			<li>Additionally, the main page and changelog have been redesigned a bit</li>
-			<li>Fixes for the navbar and footer so their widths are more consistent when zooming in and out</li>
-			<li>...and small code tweaks...</li>
-		</ul>
+			<p>I'M ALIVEEEEE- well, kinda. this one's not gonna be that big of a change though</p>
+			<ul>
+				<li>Change date formats from <code>MM/DD/YYYY</code> to <code>YYYY/MM/DD</code>, because... I'm not American</li>
+				<li>Added a secret page, which will be completed and revealed to the public later once I feel like it</li>
+				<li>Removed link to joncoale's site since it doesn't exist anymore</li>
+				<li>Removed the audio file from the main page as it's not as funny anymore and is associated with uhh... a rather controversial YouTuber</li>
+				<li>Added a few 88x31 buttons to the main page, including my own if you'd like to add it to your site!</li>
+				<li>Additionally, the main page and changelog have been redesigned a bit</li>
+				<li>Fixes for the navbar and footer so their widths are more consistent when zooming in and out</li>
+				<li>...and small code tweaks...</li>
+			</ul>
 		</details>
 		<hr>
 		<details id="0.1.2">
@@ -299,6 +317,6 @@
 		</details>
 	</div>
 	<footer></footer>
-	<script src="script.min.js"></script>
+	<script src="script.min.js" async></script>
 </body>
 </html>
