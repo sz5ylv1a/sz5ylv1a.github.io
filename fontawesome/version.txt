@@ -1,7 +1,5 @@
-Installed version:
-7.3.1
-
-Last updated:
-2026-07-27
+Installed version: 7.3.1
+Last updated: 2026-07-27
+Currently used method for loading icons: Webfonts with CSS
 
 This file's only purpose is to report the current version of FontAwesome installed.
