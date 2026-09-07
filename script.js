@@ -27,7 +27,7 @@ try {
 			<li class="desknav"><a href="/">Home</a></li>
 		</ul>
 	</nav>`;
-	footer.innerHTML = `<div class="currentver">v0.2.0 &bull; Last updated: <time datetime="2026-09-06">2026/09/06</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+	footer.innerHTML = `<div class="currentver">v0.2.0 &bull; Last updated: <time datetime="2026-09-07">2026/09/07</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
 	<div class="fakecrdate">sz5ylv1a &copy; 2017-2026</div>`;
 } catch (e) {
 	console.error(e);

@@ -100,7 +100,7 @@ video, audio {
 	color: #000;
 	border-radius: 10px;
 	padding: 15px;
-	box-shadow: 0 3px 5px #00000080;
+	box-shadow: 0 3px 5px #00000060;
 	margin: auto;
 	width: 87.5%;
 	z-index: 5;
@@ -127,7 +127,7 @@ video {
 }
 video, audio {
 	margin-top: 5px;
-	box-shadow: 0 3px 5px #0006;
+	box-shadow: 0 3px 5px #00000060;
 }
 details summary {
 	font-size: 1.25rem;
