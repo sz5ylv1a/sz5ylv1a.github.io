@@ -6,6 +6,7 @@ These are files that hold together my website, and also hosted here *(for now at
 ---
 
 ## Planned changes
-- Update the site's 88x31 web button
+- Make the site's 88x31 web button animated
 - Replace front page video with a different one, as well as adding a new audio clip
 - Proper dark mode support
+- Fix that lack of animation in the mobile sidebar
