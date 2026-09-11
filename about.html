@@ -4,15 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>About Me | sz5ylv1a</title>
-	<link rel="me" href="https://meow.social/@sz5ylv1a">
-	<link rel="stylesheet" media="screen and (max-width:850px)">
-	<meta content="sz5ylv1a" property="og:title" />
-	<meta content="Sylvia's personal website, containing an extended bio about myself, as well as links to other social media sites and such." property="og:description" />
-	<meta name="description" content="sz5ylv1a's personal website, containing an extended bio about myself, as well as links to other social media sites and such.">
-	<meta content="https://sz5ylv1a.github.io/" property="og:url" />
-	<meta content="https://sz5ylv1a.github.io/resources/images/thing.png" property="og:image" />
-	<meta content="#c5f5c3" data-react-helmet="true" name="theme-color" />
-	<meta name="darkreader-lock">
+	<link rel="icon" type="image/png" href="./favicon.png" />
+	<meta name="darkreader-lock" />
+	<link rel="me" href="https://meow.social/@sz5ylv1a" />
+	<meta name="theme-color" content="#c5f5c3" data-react-helmet="true" />
+	<meta property="og:title" content="sz5ylv1a" />
+	<meta name="description" content="Sylvia's personal website, containing an extended bio about myself, as well as links to other social media sites and such." property="og:description" />
+	<meta property="og:url" content="https://sz5ylv1a.github.io/" />
+	<meta property="og:image" content="https://sz5ylv1a.github.io/resources/images/favicon.png" />
+	<meta property="og:image:height" content="128" />
+	<meta property="og:type" content="website" />
 	<style>
 		@import "style.min.css";
 		.content li, .content dd {padding-bottom:5px;}
@@ -27,6 +28,7 @@
 		#faq {margin-bottom: 8px}
 		figcaption a:hover {text-decoration:underline}
 		.statuses li {font-weight:600;}
+		@media screen and (min-width:960px) {.specs{columns:2;}}
 	</style>
 </head>
 <body>
@@ -36,7 +38,7 @@
 			<img src="resources/images/Sylvia.webp" title='art by @Leandro170' alt="Sylvia (me) laying down on a grassy field facing upwards" width="256">
 			<figcaption>art by <a href="https://bsky.app/profile/leandro170.bsky.social" target="_blank" style="color:#00000060">@Leandro170</a>, 2026</figcaption>
 		</figure>
-		<h2 id="bio">About me!</h2>
+		<h2 id="bio">About me...</h2>
 		<p>Hello! My name is <strong>Sylvia</strong>, and I'm a <strong>20 year old</strong> girl from <strong>Hungary</strong>! I sometimes draw digital art and make GFX, but I often do software development in my spare time.<br>
 		My favorite games are usually rhythm games, mainly StepMania. I also like Tetris, Puyo Puyo, Minecraft, Geometry Dash, as well as Touhou Project. I also sometimes play a variety of other games too, including some difficult ones here and there that I personally enjoy playing. <em>(i.e. Celeste)</em><br>
 		I have a huge interest in tech in nearly all aspects; mostly on the software side, and a little bit on the hardware side. I also aspire to be a video game developer, especially for a planned future project lead by me and some of my friends.</p>
@@ -54,7 +56,7 @@
 		</ul>
 		<h3>What I use & their specs</h3>
 		<h4>Main PC *</h4>
-		<ul style="margin-bottom:0%;">
+		<ul class="specs" style="margin-bottom:0%;text-align:left;">
 			<li><strong>OS:</strong> Windows 10 Pro</li>
 			<li><strong>CPU:</strong> Intel Core i7-3770 @ 3.40GHz</li>
 			<li><strong>RAM:</strong> 16GB DDR3 @ 1600 MHz, Quad-channel <em>(4x4GB)</em></li>

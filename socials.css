@@ -1,13 +1,7 @@
 @import "style.css";
 @import "/fontawesome/css/all.min.css";
 
-body {
-	text-align: center;
-}
-h2 {
-	text-align: left;
-}
-h4 {
+/*h4 {
 	color: #00000080;
 	margin-top: 0%;
 	float: right;
@@ -15,21 +9,12 @@ h4 {
 	font-weight: 400;
 	font-style: italic;
 }
-.content a {
-	color: inherit;
-}
 h4 a:hover {
 	font-weight: 900;
 	text-decoration: underline;
-}
-i {
-	font-weight: 400;
-	margin-right: 6px;
-}
-.content img {
-	float: left;
-	margin-right: 8px;
-	height: 20px;
+}*/
+.content a {
+	color: inherit;
 }
 .socials-note {
 	margin-bottom: 0%;
@@ -47,16 +32,29 @@ i {
 .lnk {
 	font-weight: 500;
 	font-size: 1.2rem;
-	padding: 12px 12px;
+	padding: 12px;
 	margin: 0% 5px;
 	margin-bottom: 10px;
 	display: inline-block;
 	text-align: center;
 	border: none;
 	border-radius: 8px;
+	scale: 1;
 	transition: ease-out 0.25s;
-	transition-property: color background scale;
+	transition-property: color background scale opacity;
 	box-shadow: 0 3px 5px #00000060;
+	backdrop-filter: blur(12px);
+}
+.lnk::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, #ffffff20 0%, #ffffff40 45%, #0000001a 45%, #00000000 100%);
+	border-radius: inherit;
+	z-index: -1;
 }
 a.lnk {
 	color: #fff;
@@ -68,73 +66,82 @@ a.lnk {
 	scale: 1.05;
 	transition: none;
 }
+.lnk img {
+	float: left;
+	margin-right: 8px;
+	height: 20px;
+}
+.lnk i {
+	font-weight: 400;
+	margin-right: 6px;
+}
 /* Bluesky */
 .lnk1 {
-	background: #0085ff;
+	background-color: #0085ffc0;
 }
 .lnk1:hover {
-	background: #0062dc;
+	background-color: #0062dcc0;
 }
 /* Mastodon */
 .lnk2 {
-	background: #595aff;
+	background-color: #595affc0;
 }
 .lnk2:hover {
-	background: #2728cd;
+	background-color: #2728cdc0;
 }
 /* YouTube */
 .lnk3 {
-	background: #dd1f1d;
+	background-color: #dd1f1dc0;
 }
 .lnk3:hover {
-	background: #aa1816;
+	background-color: #aa1816c0;
 }
 /* Odysee */
 .lnk4 {
-	background: #de0050;
+	background-color: #de0050c0;
 }
 .lnk4:hover {
-	background: #ac001e;
+	background-color: #ac001ec0;
 }
 /* DeviantArt */
 .lnk5 {
-	background: #00e59b;
+	background-color: #00e59bc0;
 }
 .lnk5:hover {
-	background: #00b279;
+	background-color: #00b279c0;
 }
 /* Newgrounds */
 .lnk6 {
-	background: #fda238;
+	background-color: #fda238c0;
 }
 .lnk6:hover {
-	background: #e97526;
+	background-color: #e97526c0;
 }
 /* Discord */
 .lnk7 {
-	background: #5865f2;
+	background-color: #5865f2c0;
 }
 .lnk7:hover {
-	background: #444fbf;
+	background-color: #444fbfc0;
 }
 /* Steam */
 .lnk8 {
-	background: #5a96d0;
+	background-color: #5a96d0c0;
 }
 .lnk8:hover {
-	background: #43729e;
+	background-color: #43729ec0;
 }
 /* GitHub */
 .lnk9 {
-	background: #010409;
+	background-color: #0d1117c0;
 }
 .lnk9:hover {
-	background: #000;
+	background-color: #010409c0;
 }
 /* Ko-fi */
 .lnk10 {
-	background: #ff5f5f;
+	background-color: #ff5f5fc0;
 }
 .lnk10:hover {
-	background: #c42b2b;
+	background-color: #c42b2bc0;
 }

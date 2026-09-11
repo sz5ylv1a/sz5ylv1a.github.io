@@ -4,26 +4,42 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Changelog | sz5ylv1a</title>
-	<link rel="me" href="https://meow.social/@sz5ylv1a">
-	<link rel="stylesheet" media="screen and (max-width:850px)">
-	<meta content="sz5ylv1a" property="og:title" />
-	<meta content="Sylvia's personal website, containing an extended bio about myself, as well as links to other social media sites and such." property="og:description" />
-	<meta name="description" content="sz5ylv1a's personal website, containing an extended bio about myself, as well as links to other social media sites and such.">
-	<meta content="https://sz5ylv1a.github.io/" property="og:url" />
-	<meta content="https://sz5ylv1a.github.io/resources/images/thing.png" property="og:image" />
-	<meta content="#c5f5c3" data-react-helmet="true" name="theme-color" />
-	<meta name="darkreader-lock">
-	<style>@import "style.min.css";.content a{text-decoration:underline}.content ul{padding-left:24px}</style>
+	<link rel="icon" type="image/png" href="./favicon.png" />
+	<meta name="darkreader-lock" />
+	<link rel="me" href="https://meow.social/@sz5ylv1a" />
+	<meta name="theme-color" content="#c5f5c3" data-react-helmet="true" />
+	<meta property="og:title" content="sz5ylv1a" />
+	<meta name="description" content="Sylvia's personal website, containing an extended bio about myself, as well as links to other social media sites and such." property="og:description" />
+	<meta property="og:url" content="https://sz5ylv1a.github.io/" />
+	<meta property="og:image" content="https://sz5ylv1a.github.io/resources/images/favicon.png" />
+	<meta property="og:image:height" content="128" />
+	<meta property="og:type" content="website" />
+	<style>@import "style.min.css";.content a{text-decoration:underline}.content ul{padding-left:24px}summary{text-align:left;}summary time{font-size:0.8rem;color:#000000a0;display:inline-block;vertical-align:center;margin-top:2px;margin-left:8px;font-style:italic;}</style>
 </head>
 <body>
 	<header></header>
 	<div class="content">
 		<h2>Site Changelog</h2>
-		<p>This page documents all changes made to the site per version.<br>
+		<p>This page documents all changes made to the site, per version. I don't exactly remember when and why I thought it'd be a good idea to use semantic versioning for a personal website of all things, but now it just felt too funny to remove so I kept it ever since.<br>
 		All release dates are currently in <code>YYYY/MM/DD</code> format, but I might make something so it dynamically changes based on your device's regional setings.</p>
 		<hr class="majordiv">
-		<details id="0.2.0" open>
-			<summary><strong>v0.2.0 - Codename Eucalpytus</strong> - <time datetime="2026-09-08">2026/09/08</time></summary>
+		<details id="0.2.1" open>
+			<summary><strong>v0.2.1</strong><time datetime="2026-09-11">2026/09/11</time></summary>
+			<p style="margin-bottom:0%;">I swear to you that the date was not intentional, this is just how things came to be. Anyway, this is a small little update for my site to polish some things up a bit more and adding stuff that I didn't before.</p>
+			<ul>
+				<li>Slightly revamped the <code>og</code> properties inside the <code>head</code> <em>(otherwise known as the things that make an embed appear on Discord and other sites)</em></li>
+				<li>Changed out the main favicon to a <code>PNG</code> since it somehow takes up less space than <code>ICO</code></li>
+				<li>Minor visual tweaks for <a href="/socials.html">Socials</a> <em>(like adding a cooler looking glossy glass effect to the buttons)</em>, as well as removing link to Font Awesome since I plan to remove it entirely in favour of standalone <code>SVG</code> and <code>PNG</code> images later</li>
+				<li>Hid the link to Odysee since I don't really use that platform at all <em>(I might remove it from the code later)</em></li>
+				<li>Updated visuals of the changelog AGAIN, though this time to make the date smaller as well as adding some context as to why this page exists and why I like to version my site's changes a lot</li>
+				<li>Slightly changed up some of the visuals so it looks even less boring</li>
+				<li>Fix for the source code link being underlined in the <a href="/projects.html">Projects</a> page for some reason</li>
+				<li>Additionally, I have added a listing to my <a href="/projects.html">Projects</a> page! <em>(can't guarantee good quality though LOL)</em></li>
+			</ul>
+		</details>
+		<hr>
+		<details id="0.2.0">
+			<summary><strong>v0.2.0 - Codename Eucalpytus</strong><time datetime="2026-09-08">2026/09/08</time></summary>
 			<p style="margin-bottom:0%;">Hi! This is another major overhaul to the site's design and internal workings, which I'm gonna call <strong>"Codename Eucalpytus"</strong>. The goal with this is to have a design that feels a lot more fun and alive and not as clunky whilst retaining the limitations of only using pure HTML, CSS and JavaScript instead of something more fancy like Vue or React.</p>
 			<p style="margin:8px 0%;">This new design will feature a lot of prettier looking glass elements and graphics more reminiscent of late 2000s and early 2010s esque visuals, but with a small touch of modern stuff too; and you'll bet your ass that it'll look so pretty you wanna lick it, like Steve Jobs intended!</p>
 			<ul>
@@ -37,7 +53,7 @@
 				<li>Changed out the monospace font used for <code>code</code> and <kbd>kbd</kbd> to <strong>JetBrains Mono</strong>, as well as giving both elements a background</li>
 				<li>Added a small link to a <em>(now-defunct)</em> Strawpage embed that I tried to do to the homepage</li>
 				<li>Added additional text to redirect pages</li>
-				<li>Proper fix to make the actual 404 page show up</li>
+				<li>Proper fix to make the actual <a href="/error/404.html">404</a> page show up</li>
 				<li>Made script loading asynchronous for hopefully better load times</li>
 				<li>Hid the web button for PlayStation <em>(check comments in source as to why)</em></li>
 			</ul>
@@ -45,7 +61,7 @@
 		</details>
 		<hr class="majordiv">
 		<details id="0.1.4.2">
-			<summary><strong>v0.1.4.2</strong> - <time datetime="2026-09-02">2026/09/02</time></summary>
+			<summary><strong>v0.1.4.2</strong><time datetime="2026-09-02">2026/09/02</time></summary>
 			<ul>
 				<li>Slightly changed styling for some pages</li>
 				<li>Minified main script file for <em>(hopefully)</em> faster load times</li>
@@ -53,7 +69,7 @@
 		</details>
 		<hr>
 		<details id="0.1.4.1">
-			<summary><strong>v0.1.4.1</strong> - <time datetime="2026-08-31">2026/08/31</time></summary>
+			<summary><strong>v0.1.4.1</strong><time datetime="2026-08-31">2026/08/31</time></summary>
 			<ul>
 				<li>Add a new web button to the homepage</li>
 				<li>Add an additional small note to <a href="/socials.html">Socials</a> page</li>
@@ -63,7 +79,7 @@
 		</details>
 		<hr>
 		<details id="0.1.4">
-			<summary><strong>v0.1.4</strong> - <time datetime="2026-08-30">2026/08/30</time></summary>
+			<summary><strong>v0.1.4</strong><time datetime="2026-08-30">2026/08/30</time></summary>
 			<ul>
 				<li>Slight tweaks for the <a href="/about.html">About</a> page, as well as rewriting the page contents a little bit <em>(like the bio)</em></li>
 				<li>Changed out the image in <a href="/about.html">About</a> to my new vixen OC! <em>(<a href="https://bsky.app/profile/sz5ylv1a.bsky.social/post/3mtcugyp4z22h" target="_blank">see here!</a>)</em></li>
@@ -74,7 +90,7 @@
 		</details>
 		<hr>
 		<details id="0.1.3.1">
-			<summary><strong>v0.1.3.1</strong> - <time datetime="2026-07-27">2026/07/27</time></summary>
+			<summary><strong>v0.1.3.1</strong><time datetime="2026-07-27">2026/07/27</time></summary>
 			<ul>
 				<li>Added more web buttons!</li>
 				<li>Redesigned the changelog, including making use of two underused but useful HTML tags</li>
@@ -83,7 +99,7 @@
 		</details>
 		<hr>
 		<details id="0.1.3">
-			<summary><strong>v0.1.3</strong> - <time datetime="2026-07-26">2026/07/26</time></summary>
+			<summary><strong>v0.1.3</strong><time datetime="2026-07-26">2026/07/26</time></summary>
 			<p>I'M ALIVEEEEE- well, kinda. this one's not gonna be that big of a change though</p>
 			<ul>
 				<li>Change date formats from <code>MM/DD/YYYY</code> to <code>YYYY/MM/DD</code>, because... I'm not American</li>
@@ -98,7 +114,7 @@
 		</details>
 		<hr>
 		<details id="0.1.2">
-			<summary><strong>v0.1.2</strong> - <time datetime="2025-08-02">2025/08/02</time></summary>
+			<summary><strong>v0.1.2</strong><time datetime="2025-08-02">2025/08/02</time></summary>
 			<p>oh hey an update!! hasn't happened in a while, huh?</p>
 			<ul>
 				<li>Discord server has now been replaced with an URI to my profile, as I do not maintain my server anymore and have sunsetted it for good since. A little notice for this has been added in case for those clicking on the button for the first time</li>
@@ -115,7 +131,7 @@
 		</details>
 		<hr>
 		<details id="0.1.1">
-			<summary><strong>v0.1.1</strong> - <time datetime="2024-10-27">2024/10/27</time></summary>
+			<summary><strong>v0.1.1</strong><time datetime="2024-10-27">2024/10/27</time></summary>
 			<p>a little polishing...</p>
 			<ul>
 				<li>increased width of the mobile view so that more content can fit</li>
@@ -125,7 +141,7 @@
 		</details>
 		<hr>
 		<details id="0.1.0">
-			<summary><strong>v0.1.0</strong> - <time datetime="2024-09-22">2024/09/22</time></summary>
+			<summary><strong>v0.1.0</strong><time datetime="2024-09-22">2024/09/22</time></summary>
 			<p>aaaand we're out of "the alpha stage"! here's what I got to offer:</p>
 			<ul>
 				<li>completely revamped the navigation bar</li>
@@ -145,7 +161,7 @@
 		</details>
 		<hr class="majordiv">
 		<details id="0.0.15a">
-			<summary><strong>v0.0.15a</strong> - <time datetime="2024-06-27">2024/06/27</time></summary>
+			<summary><strong>v0.0.15a</strong><time datetime="2024-06-27">2024/06/27</time></summary>
 			<p>welp, now that my finals are done, time to get back to the fun!!</p>
 			<ul>
 				<li>FAQ page is now moved to the About Me as a subsection, as well as other additions and changes to that page. Dedicated FAQ page will be replaced with something else later.</li>
@@ -159,7 +175,7 @@
 		</details>
 		<hr>
 		<details id="0.0.14c">
-			<summary><strong>v0.0.14c</strong> - <time datetime="2024-05-04">2024/05/04</time></summary>
+			<summary><strong>v0.0.14c</strong><time datetime="2024-05-04">2024/05/04</time></summary>
 			<p>minor update changelog thing cuz i'm LAAAZYYY :P</p>
 			<ul>
 				<li>error pages have been all fixed up temporarily cuz I forgot to change them back post-migration</li>
@@ -170,7 +186,7 @@
 		</details>
 		<hr>
 		<details id="0.0.14b">
-			<summary><strong>v0.0.14b</strong> - <time datetime="2023-11-29">2023/11/29</time></summary>
+			<summary><strong>v0.0.14b</strong><time datetime="2023-11-29">2023/11/29</time></summary>
 			<p>well hey, long time no see, let's see what I decided to add and change</p>
 			<ul>
 				<li>socials and about pages have been updated, adding more links and correcting outdated info</li>
@@ -181,7 +197,7 @@
 		</details>
 		<hr>
 		<details id="0.0.14a">
-			<summary><strong>v0.0.14a</strong> - <time datetime="2022-12-04">2022/12/04</time></summary>
+			<summary><strong>v0.0.14a</strong><time datetime="2022-12-04">2022/12/04</time></summary>
 			<ul>
 				<li>fontawesome has been installed, all social links will have an icon now</li>
 				<li>a bit of code cleanup for the changelog as there were a couple unused variables</li>
@@ -189,7 +205,7 @@
 		</details>
 		<hr>
 		<details id="0.0.13">
-			<summary><strong>v0.0.13</strong> - <time datetime="2022-11-27">2022/11/27</time></summary>
+			<summary><strong>v0.0.13</strong><time datetime="2022-11-27">2022/11/27</time></summary>
 			<ul>
 				<li>a little bit of code cleanup by moving the google fonts api requests to the css file</li>
 				<li>added more content to the homepage and changed up some capitalizations there and on the socials page</li>
@@ -197,7 +213,7 @@
 		</details>
 		<hr>
 		<details id="0.0.12">
-			<summary><strong>v0.0.12</strong> - <time datetime="2022-11-19">2022/11/19</time></summary>
+			<summary><strong>v0.0.12</strong><time datetime="2022-11-19">2022/11/19</time></summary>
 			<ul>
 				<li>quick fix for mobile layout, should display there correctly now</li>
 				<li>slight change on socials so it can be more spaced out when it overflows to second line</li>
@@ -205,7 +221,7 @@
 		</details>
 		<hr>
 		<details id="0.0.11">
-			<summary><strong>v0.0.11</strong> - <time datetime="2024-11-18">2022/11/18</time></summary>
+			<summary><strong>v0.0.11</strong><time datetime="2024-11-18">2022/11/18</time></summary>
 			<ul>
 				<li>changed up the nav bar a bit so it should display a bit better on phones; if not then i'll work on a fix later</li>
 				<li>two new socials links, one I didn't add earlier</li>
@@ -215,18 +231,18 @@
 		</details>
 		<hr>
 		<details id="0.0.10">
-			<summary><strong>v0.0.10</strong> - <time datetime="2024-11-16">2022/11/16</time></summary>
+			<summary><strong>v0.0.10</strong><time datetime="2024-11-16">2022/11/16</time></summary>
 			<p>conflicting version number ik but anyway have minor changes</p>
 			<ul>
 				<li>made a discord embed, but only works with the homepage. sorry!</li>
 				<li>replaced view github version with a direct link to the source code as I don't really maintain the github version</li>
 				<li>gave error pages a red background</li>
-				<li>fixed <a href="403.html">403</a> page not rendering the same as the other error pages</li>
+				<li>fixed <a href="./error/403.html">403</a> page not rendering the same as the other error pages</li>
 			</ul>
 		</details>
 		<hr>
 		<details id="0.0.9">
-			<summary><strong>v0.0.9</strong> - <time datetime="2022-11-14">2022/11/14</time></summary>
+			<summary><strong>v0.0.9</strong><time datetime="2022-11-14">2022/11/14</time></summary>
 			<ul>
 				<li>redesigned the navigation bar</li>
 				<li>slightly widened the whole page</li>
@@ -235,7 +251,7 @@
 		</details>
 		<hr>
 		<details id="0.0.8">
-			<summary><strong>v0.0.8</strong> - <time datetime="2022-11-12">2022/11/12</time></summary>
+			<summary><strong>v0.0.8</strong><time datetime="2022-11-12">2022/11/12</time></summary>
 			<ul>
 				<li>minor redesign to error pages</li>
 				<li>new favicon woah</li>
@@ -246,7 +262,7 @@
 		</details>
 		<hr>
 		<details id="0.0.7">
-			<summary><strong>v0.0.7</strong> - <time datetime="2022-10-31">2022/10/31</time></summary>
+			<summary><strong>v0.0.7</strong><time datetime="2022-10-31">2022/10/31</time></summary>
 			<p>here's another somewhat big one</p>
 			<ul>
 				<li>implemented a couple css animation to certain elements, like the menu items <i>(there will be a blue flash that i don't know how to fix, sorry!)</i></li>
@@ -257,7 +273,7 @@
 		</details>
 		<hr>
 		<details id="0.0.6b">
-			<summary><strong>v0.0.6b</strong> - <time datetime="2022-10-31">2022/10/31</time></summary>
+			<summary><strong>v0.0.6b</strong><time datetime="2022-10-31">2022/10/31</time></summary>
 			<ul>
 				<li>embedded an audio file to the homepage</li>
 				<li>footer stuff exists now</li>
@@ -265,7 +281,7 @@
 		</details>
 		<hr>
 		<details id="0.0.6a">
-			<summary><strong>v0.0.6a</strong> - <time datetime="2022-10-30">2022/10/30</time></summary>
+			<summary><strong>v0.0.6a</strong><time datetime="2022-10-30">2022/10/30</time></summary>
 			<ul>
 				<li>slightly revamped the <a href="socials.html">socials</a> tab and added a github link (has nothing on it atm)</li>
 				<li>changed link styles in the changelog page</li>
@@ -277,28 +293,28 @@
 		</details>
 		<hr>
 		<details id="0.0.5">
-			<summary><strong>v0.0.5</strong> - <time datetime="2022-10-28">2022/10/28</time></summary>
+			<summary><strong>v0.0.5</strong><time datetime="2022-10-28">2022/10/28</time></summary>
 			<p>oh boy this is a big one, let's see what are the changes</p>
 			<ul>
 				<li>major site overhaul</li>
 				<li>logo is an image now instead of a text <i>(it is currently a placeholder though)</i></li>
 				<li>a <a href="faq.html">FAQ</a> page has been added, will work on that later</li>
-				<li><a href="401.html">401</a> page also exists now</li>
+				<li><a href="./error/401.html">401</a> page also exists now</li>
 			</ul>
 		</details>
 		<hr>
 		<details id="0.0.4">
-			<summary><strong>v0.0.4</strong> - <time datetime="2022-10-25">2022/10/25</time></summary>
+			<summary><strong>v0.0.4</strong><time datetime="2022-10-25">2022/10/25</time></summary>
 			<ul>
 				<li>menu items are in one line now!</li>
 				<li>added a couple margins to certain elements</li>
 				<li>spacehey has been added because yes</li>
-				<li>added <a href="404.html">404</a> and <a href="403.html">403</a> pages</li>
+				<li>added <a href="./error/404.html">404</a> and <a href="./error/403.html">403</a> pages</li>
 			</ul>
 		</details>
 		<hr>
 		<details id="0.0.3">
-			<summary><strong>v0.0.3</strong> - <time datetime="2022-10-24">2022/10/24</time></summary>
+			<summary><strong>v0.0.3</strong><time datetime="2022-10-24">2022/10/24</time></summary>
 			<ul>
 				<li>added google fonts apis so fonts should display as intended</li>
 				<li>fixed website titles not displaying correctly</li>
@@ -306,7 +322,7 @@
 		</details>
 		<hr>
 		<details id="0.0.2">
-			<summary><strong>v0.0.2</strong> - <time datetime="2022-10-23">2022/10/23</time></summary>
+			<summary><strong>v0.0.2</strong><time datetime="2022-10-23">2022/10/23</time></summary>
 			<ul>
 				<li>colorized the two links from socials that i forgot to do</li>
 				<li>added steam profile because why the hell not</li>
@@ -314,7 +330,7 @@
 		</details>
 		<hr>
 		<details id="0.0.1">
-			<summary><strong>v0.0.1</strong> - <time datetime="2022-10-21">2022/10/21</time></summary>
+			<summary><strong>v0.0.1</strong><time datetime="2022-10-21">2022/10/21</time></summary>
 			<ul style="margin-bottom:0%;">
 				<li>this site was created. what? expected crazy stuff?</li>
 			</ul>

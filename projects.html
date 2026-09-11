@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Projects | sz5ylv1a</title>
+	<link rel="icon" type="image/png" href="./favicon.png" />
 	<link rel="me" href="https://meow.social/@sz5ylv1a">
 	<link rel="stylesheet" media="screen and (max-width:850px)">
 	<meta content="sz5ylv1a" property="og:title" />
@@ -14,16 +15,54 @@
 	<meta content="#c5f5c3" data-react-helmet="true" name="theme-color" />
 	<meta name="darkreader-lock">
 	<link rel="stylesheet" href="style.min.css">
-	<style>a{text-decoration:underline}p{margin:0%}</style>
+	<style>
+		.content a{text-decoration:underline}
+		.major-project {
+			display: inline-block;
+			background-color: #ffffffa0;
+			padding: 16px;
+			border-radius: 10px;
+			box-shadow: inherit;
+			margin-right: 5px;
+			margin-bottom: 10px;
+			z-index: 0;
+		}
+		@media screen and (min-width:992px){.major-project{max-width: calc(50% - 40px);}}
+		@media screen and (min-width:1200px){.major-project{max-width: calc(25% - 40px);}}
+		.major-project h3 {
+			font-size: 2rem;
+			font-weight: 600;
+			margin: 0%;
+		}
+		.major-project p{margin: 8px 0;}
+		.major-project a {
+			color: #0060a0;
+			text-decoration: none;
+		}
+		.project-title {
+			display: flex;
+			justify-content: space-between;
+			align-items: end;
+		}
+		.project-title span {
+			margin-bottom: 0.2rem;
+			font-style: italic;
+			color: #00000080;
+		}
+	</style>
 </head>
 <body>
 	<header></header>
 	<div class="content">
 		<h2>Projects</h2>
-		<p>This page only serves to list all my overall projects. If you're looking for the drawings, this is not it.</p>
+		<p>This page only serves to list all my overall projects. If you're looking for the drawings, this is not it, but you can check out my <a href="https://www.deviantart.com/sz5ylv1a" target="_blank">DeviantArt</a> or <a href="https://sz5ylv1a.newgrounds.com/" target="_blank">Newgrounds</a> if that's what you want!</p>
 		<hr>
-		<p>There's nothing here yet, but I will add something once a worthy enough project comes to life!<br>
-		In the meantime, why not check out my art gallery on <a href="https://www.deviantart.com/sz5ylv1a" target="_blank">DeviantArt</a> or <a href="https://sz5ylv1a.newgrounds.com/" target="_blank">Newgrounds</a>?</p>
+		<div class="major-project">
+			<div class="project-title"><h3>Lel.tar</h3><span>Video Game</span></div>
+			<hr style="margin:4px 0%;">
+			<p>An unfinished Touhou-like shmup made in Godot Engine. Originally was for a school project, but then turned into a small little passion project of mine.</p>
+			<a href="https://sz5ylv1a.github.io/LelTarWebsite/" target="_blank">Website</a> &bull; <a href="https://github.com/sz5ylv1a/LelTarGame" target="_blank">Source Code</a>
+		</div>
 	</div>
 	<footer></footer>
 	<script src="script.min.js" async></script>
