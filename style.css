@@ -147,6 +147,7 @@ details summary {
 }
 .web-buttons {
 	image-rendering: crisp-edges;
+	text-align: left;
 }
 .web-buttons img {
 	max-width: 88px;
