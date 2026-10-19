@@ -6,8 +6,9 @@ These are files that hold together my website, and also hosted here *(for now at
 ---
 
 ## Planned changes
-- Make the site's 88x31 web button animated
+- Make this site's 88x31 web button animated
 - Replace front page video with a different one, as well as adding a new audio clip
 - Replace Font Awesome webfonts with standalone `SVG` images
 - Fix that lack of animation in the mobile sidebar
+- Move images, audio and videos to a CDN
 - Get a proper domain for this website and move away from GitHub for hosting the site and its code
