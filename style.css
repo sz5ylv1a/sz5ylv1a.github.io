@@ -4,8 +4,8 @@
 	font-family: Asap, Arial, Helvetica, sans-serif, "Noto Color Emoji", "Noto Emoji";
 	/*background: rgb(10,60,37) linear-gradient(180deg, rgb(4,21,13) 0%, rgb(10,60,37) 100%) no-repeat center fixed;*/
 	background: #a8d7be image-set(
-		"/resources/images/bg-1080.webp" 1x,
-		"/resources/images/bg-2160.webp" 2x
+		"/res/images/bg-1080.webp" 1x,
+		"/res/images/bg-2160.webp" 2x
 	) no-repeat center fixed;
 	background-size: cover;
 	color: white;

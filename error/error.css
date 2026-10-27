@@ -1,7 +1,7 @@
 @import url("../style.min.css");
 
 :root {
-	background: #260200 url("../resources/images/errorbg-1080.webp") no-repeat center fixed;
+	background: #260200 url("../res/images/errorbg-1080.webp") no-repeat center fixed;
 	background-size: cover;
 	scrollbar-color: #720003 #260200;
 }

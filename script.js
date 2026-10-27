@@ -7,7 +7,7 @@ try {
 	<nav>
 		<ul>
 			<li class="logo" style="float:left"><a href="/">
-			<img src="/resources/images/placeholder-logo.png" alt="sz5ylv1a" height="40" type="img/png">
+			<img src="/res/images/placeholder-logo.png" alt="sz5ylv1a" height="40" type="img/png">
 			</a></li>
 			<li class="drop">
 			<button onclick="_dropDown()" class="btn dropbtn">&#9776;</button>
