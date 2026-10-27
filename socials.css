@@ -1,5 +1,4 @@
-@import "style.css";
-@import "/fontawesome/css/all.min.css";
+@import "style.min.css";
 
 /*h4 {
 	color: #00000080;
@@ -33,12 +32,12 @@ h4 a:hover {
 	font-weight: 500;
 	font-size: 1.2rem;
 	padding: 12px;
-	margin: 0% 5px;
-	margin-bottom: 10px;
+	margin: 0% 5px 10px 5px;
 	display: inline-block;
 	text-align: center;
 	border: none;
 	border-radius: 8px;
+	height: 22px;
 	scale: 1;
 	transition: ease-out 0.25s;
 	transition-property: color background scale opacity;
@@ -69,7 +68,8 @@ a.lnk {
 .lnk img {
 	float: left;
 	margin-right: 8px;
-	height: 20px;
+	margin-top: -5px;
+	height: 32px;
 }
 .lnk i {
 	font-weight: 400;
