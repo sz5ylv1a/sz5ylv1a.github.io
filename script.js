@@ -15,19 +15,17 @@ try {
 					<a href="/">Home</a>
 					<a href="/about.html">About Me</a>
 					<a href="/projects.html">Projects</a>
-					<a href="/socials.html">Socials</a>
-					<a class="droplastoption" href="/changelog.html">Changelog</a>
+					<a class="droplastoption" href="/socials.html">Socials</a>
 				</div>
 			</li>
 			<!-- <li class="darkbtn"><button onclick="darkMode()" class="btn darktoggle"><i class="fa-solid fa-moon"></i></button></li> -->
-			<li class="desknav"><a href="/changelog.html" style="margin-right:0%">Changelog</a></li>
-			<li class="desknav"><a href="/socials.html">Socials</a></li>
+			<li class="desknav"><a href="/socials.html" style="margin-right:0%">Socials</a></li>
 			<li class="desknav"><a href="/projects.html">Projects</a></li>
 			<li class="desknav"><a href="/about.html">About Me</a></li>
 			<li class="desknav"><a href="/">Home</a></li>
 		</ul>
 	</nav>`;
-	footer.innerHTML = `<div class="currentver"><a href="/changelog.html">v0.2.3</a> &bull; Last updated: <time datetime="2026-10-27">2026/10/27</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
+	footer.innerHTML = `<div class="currentver"><a href="/changelog.html">v0.2.3.1</a> &bull; Last updated: <time datetime="2026-11-06">2026/11/06</time> &bull; <a href="https://github.com/sz5ylv1a/sz5ylv1a.github.io" target="_blank">Source Code</a></div>
 	<div class="fakecrdate">sz5ylv1a &copy; 2017-2026</div>`;
 } catch (e) {
 	console.error(e);
@@ -40,7 +38,7 @@ function _dropDown() {
 window.onclick = (event) => {
 	if (!event.target.matches('.dropbtn')) {
 		const dropdowns = document.getElementsByClassName("dropmenu");
-	let i;
+		let i;
 		for (i = 0; i < dropdowns.length; i++) {
 			const openDropdown = dropdowns[i];
 			if (openDropdown.classList.contains('show')) {
